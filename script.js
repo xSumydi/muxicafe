@@ -294,7 +294,7 @@ function handleSwipe() {
 
 }
 
-/* VOLVER AL INICIO */
+/*VOLVER AL INICIO*/
 
 const backToTop =
     document.getElementById("backToTop");
@@ -362,7 +362,7 @@ themeToggle.addEventListener(
 
 updateCarousel();
 
-/* SISTEMA CONTROLADOR DE SECCIONES LEGALES (MÜCHI CAFÉ) */
+/* SISTEMA CONTROLADOR DE SECCIONES LEGALES*/
 
 document.addEventListener("DOMContentLoaded", function() {
 
@@ -395,7 +395,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // Función para ocultar de golpe ambas pantallas de texto largo
+    //Función para ocultar de golpe ambas pantallas de texto largo
 
     function limpiarPantallasLegales() {
 
@@ -405,7 +405,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     }
 
-    // Función unificada para regresar al menú principal de forma limpia
+    //Función unificada para regresar al menú principal de forma limpia
 
     function regresarAlInicio() {
 
@@ -417,7 +417,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     }
 
-    // 1. Clic en: Enlace Aviso de Privacidad
+    //Enlace Aviso de Privacidad
 
     if (btnPrivacidad) {
 
@@ -436,7 +436,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // 2. Clic en: Enlace Términos y Condiciones
+    //Enlace Términos y Condiciones
 
     if (btnTerminos) {
 
@@ -455,7 +455,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // 3. Clic en: Logo decorativo del Header (Regresar al inicio)
+    //Regresar al inicio
 
     if (logoHome) {
 
